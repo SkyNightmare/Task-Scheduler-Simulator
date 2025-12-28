@@ -100,3 +100,21 @@ The project follows RAII (Resource Acquisition Is Initialization) principles:
   - Deterministic resource cleanup
 
   - Exception safety
+
+
+### Project Structure
+``` 
+task-scheduler-cpp/
+│
+├── include/
+│   ├── Task.hpp
+│   ├── Scheduler.hpp
+│   └── Timer.hpp
+│
+├── src/
+│   ├── Task.cpp
+│   ├── Scheduler.cpp
+│   └── Timer.cpp
+│
+└── main.cpp
+ 
